@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.spring.project</groupId>
+	<artifactId>Spring_Krish_Project</artifactId>
+	<version>1</version>
+	<packaging>war</packaging>
+
+	<properties>
+		<spring.version>3.2.13.RELEASE</spring.version>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>4.3.11.Final</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.validations</groupId>
+			<artifactId>validations</artifactId>
+			<version>1</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/jstl/jstl -->
+		<dependency>
+   			 <groupId>jstl</groupId>
+    		<artifactId>jstl</artifactId>
+    		<version>1.2</version>
+		</dependency>
+		
+
+	</dependencies>
+
+</project>

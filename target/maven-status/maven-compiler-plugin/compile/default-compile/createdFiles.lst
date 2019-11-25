@@ -1,0 +1,6 @@
+com\spring\pojos\ItemInfo.class
+com\spring\conterollers\OrderMangmentController.class
+com\spring\conterollers\BaseController.class
+com\spring\conterollers\UserConterollersRegistration.class
+com\spring\conterollers\UserConterollersLoginValidation.class
+com\spring\pojos\RegistrationPojo.class
